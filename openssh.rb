@@ -46,7 +46,7 @@ class Openssh < Formula
         For complete functionality, please modify:
           /System/Library/LaunchAgents/org.openbsd.ssh-agent.plist
 
-        and change ProgramArugments from
+        and change ProgramArguments from
           /usr/bin/ssh-agent
         to
           #{HOMEBREW_PREFIX}/bin/ssh-agent
